@@ -8,7 +8,9 @@ use std::{
     process,
 };
 
-const MODULE_TEMPLATE: &str = r###"pub fn part_one(input: &str) -> Option<u32> {
+const MODULE_TEMPLATE: &str = r###"#![allow(unused)]
+
+pub fn part_one(input: &str) -> Option<u32> {
     None
 }
 
